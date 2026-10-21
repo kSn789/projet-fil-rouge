@@ -10,7 +10,7 @@ body {
   font-style: normal;
 }
 
-.montserrat> {
+.montserrat {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 900;
@@ -21,7 +21,7 @@ body {
   text-transform: uppercase;
 }
 
-#photographe nav {
+.dot {
   color: green
 }
 
@@ -33,7 +33,7 @@ header {
 }
 
 header nav span {
-  margin: 2px;
+  margin: 5px;
   
 }
 
@@ -41,4 +41,8 @@ header nav span {
   header {
     flex-direction: column;
   }
+}
+
+h1 {
+ text-align: left;
 }
